@@ -1,13 +1,29 @@
 # Prediction-of-Cancer-Types-using-Gene-Expession
 This project aims to classify cancer types using gene expression data. The following libraries are used:
 
-pandas
-numpy
-matplotlib
-seaborn
-sklearn
-yellowbrick
-Data Exploration
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sklearn
+- yellowbrick
+
+# PROBLEM STATEMENT 
+
+Cancer has become one of the major factors responsible for global deaths, due to late diagnoses and lack of proper treatment. It involves the abnormal and uncontrolled growth of cells inside the body, which might spread from one place to different parts. Ribonucleic acid (RNA) sequencing can detect the changes occurring inside cells and helps to analyze the transcriptome of gene expression patterns inside RNA. Machine learning techniques can assist in the prediction of cancer at an early stage, if data is available. 
+
+## Objectives
+The objective for this project is to build models and classify the different cancer types using RNA-seq gene expression data. For this purpose we implemented supervised models to classify the samples collected using the labels and compare the performance of the respective models.
+
+## Data Description
+The dataset was collected from UCI Machine Learning Repository. The rows represent the observations gene expressions of patients having different types of tumors (cancer types). The last column contains the cancer types as listed below:
+- BRCA for Breast Cancer
+- KIRC for Renal Cancer (Kidney Renal Clear Cell Carcinoma)
+- LUAD for Lung Cancer (Lung adenocarcinoma)
+- PRAD for Prostate Cancer (Prostate adenocarcinoma)
+- COAD fro Colon adenocarcinoma
+
+# Data Exploration
 
 The first step is to import and explore the data. It was checked for missing values and analysis of the distribution of the data. Class imbalance was also checked. I noticed that although most of the columns had their mean around 0, the standard deviation of the various columns were around 0.5. Since it is required the standard deviation be 1 for normally distributed data, I concluded that the data needed to be preprocessed with a scaler before building models. This would normalize the data and improve the effectiveness of the models.
 
@@ -24,8 +40,8 @@ XGBoost is however closely followed by SVC(svcpipe)
 
 The journey was long and challenging, but in the end, I was able to classify the cancer types with high accuracy and precision, thus saving many lives and making the world a better place.
 
-Conclusion
+# Conclusion
 We were able to classify the cancer types with high accuracy and precision, thus helping in early diagnosis and saving many lives.
 
-Note
+# Note
 The knowledge cut off is 2021, so the libraries and techniques may have newer version.
