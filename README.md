@@ -1,4 +1,4 @@
-# Prediction-of-Cancer-Types-using-Gene-Expession
+# Prediction-of-Cancer-Types-using-Gene-Expession ---
 This project aims to classify cancer types using gene expression data. The following libraries are used:
 
 - pandas
@@ -8,7 +8,7 @@ This project aims to classify cancer types using gene expression data. The follo
 - sklearn
 - yellowbrick
 
-# PROBLEM STATEMENT 
+# PROBLEM STATEMENT ---
 
 Cancer has become one of the major factors responsible for global deaths, due to late diagnoses and lack of proper treatment. It involves the abnormal and uncontrolled growth of cells inside the body, which might spread from one place to different parts. Ribonucleic acid (RNA) sequencing can detect the changes occurring inside cells and helps to analyze the transcriptome of gene expression patterns inside RNA. Machine learning techniques can assist in the prediction of cancer at an early stage, if data is available. 
 
