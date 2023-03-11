@@ -1,4 +1,4 @@
-# --- Prediction-of-Cancer-Types-using-Gene-Expession ---
+# Prediction-of-Cancer-Types-using-Gene-Expession 
 This project aims to classify cancer types using gene expression data. The following libraries are used:
 
 - pandas
