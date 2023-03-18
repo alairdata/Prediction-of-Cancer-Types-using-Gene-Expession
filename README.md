@@ -42,6 +42,3 @@ The journey was long and challenging, but in the end, I was able to classify the
 
 # Conclusion
 We were able to classify the cancer types with high accuracy and precision, thus helping in early diagnosis and saving many lives.
-
-# --- Note
-The knowledge cut off is 2021, so the libraries and techniques may have newer version.
